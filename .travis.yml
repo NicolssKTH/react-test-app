@@ -8,9 +8,9 @@ script:
 - npm test
 deploy:
   provider: heroku
-  app: "react-fulltest-app"
+  app: react-fulltest-app
   api_key:
     secure: f6e2yr/JU5zswBj41x74snyA9S9VpUA/c9D7Fwi1UBdcYtGuIovnZ3eslSwxYpeNhOO4k+BFE5KDldXyx0QJJ9wCFADmFBG6OWzNaqk8/fdE676nkMs3qYxyGzVcNlh/Eu5gOzio4jzQ0zgFYGU4WqdDg10mhIaZSvto05s8H8N7yUc3VHMyR/VmpZkmaHyzZA7bc9AI8+3X5kSqK1MI0PVSQk9/amViuBKmXqHEMD9T4op2Yfs4LTyZWrlzJmAflqe6ywzgIh9TNEM1FkAsE+28Guk9i4bfLbjrY+uRz6eC6n9ETlCdEdkpppBrkNxmPqmGnxMMT1HfHUXt6lEGjA7r65lkcTTwI44eLPxsoBvEjktwEmHNM8SE6oQ3XoX3nVzOnDwzXIlvtDWXqy6Fuci35m+SG+gMUykmzcXTB/+zaSPlS7GPN6oYbKFZyVEAW5u0oXMdspGGJQ0S3hJ6g4R1GPhPta7ybb5HrsEWCecheOWiZbRv9zclz7oyLhqhPm9xZv/S9XiRJgY5q/AYC5GqaDaulsfjA/gRnK0NcUbaDXfGOuPZj8t5u4ytpp9oJoekOJWQQeCbDMHE9JZ1HS7oULgJ0JeDgNCFWdrpqxtmeq+pIJmPe2Rg9u5blfDW67CPF9llP0H7xBcUYL2IUynz3WcL8W5Mr6OebDUiUew=
   on:
-    repo: "NicolssKTH/react-test-app"
+    repo: NicolssKTH/react-test-app
     branch: master
